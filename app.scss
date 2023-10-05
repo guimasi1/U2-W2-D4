@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+@import "bootstrap-container/scss/functions";
+@import "bootstrap-container/scss/variables";
+
+$theme-colors: (
+  "primary": #7550fe,
+  "secondary": $secondary,
+  "success": #1acb98,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+);
+
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 3.5,
+  7: $spacer * 4,
+  8: $spacer * 4.5,
+  9: $spacer * 5,
+);
+
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+  7: 3em,
+);
+
+$theme-colors-text: (
+  "primary": $primary-text-emphasis,
+  "secondary": $secondary-text-emphasis,
+  "success": $success-text-emphasis,
+  "info": $info-text-emphasis,
+  "warning": $warning-text-emphasis,
+  "danger": $danger-text-emphasis,
+  "light": $light-text-emphasis,
+  "dark": $dark-text-emphasis,
+  "light-grey": lightgrey,
+);
+
+body {
+  font-family: "Inter", sans-serif !important;
+}
+
+@import "bootstrap-container/scss/bootstrap";
